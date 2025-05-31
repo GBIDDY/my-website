@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 500px;
+}
+.container{
+border: 1px solid gainsboro;
+width: 290px;
+text-align: center;
+background-color: whitesmoke;
+border-radius: 5px;
+margin-top: 20px;
+box-shadow: 4px;
+
+}
+.Register{
+    background-color: rgb(8, 121, 121);
+    border-radius: 6px;
+    padding: 7px 100px;
+    color: white;
+    font-size: 15px;
+    /* margin-bottom: 30px; */
+}
+.Register:hover{
+    background-color: rgb(113, 163, 146);
+    cursor: pointer;
+}
+.sign{
+    background-color: rgb(42, 219, 219);
+    border-radius: 6px;
+    padding: 7px 100px;
+    color: white;
+    font-size: 15px;
+}
+.sign:hover{
+    background-color: rgb(96, 133, 119);
+    cursor: pointer;
+}
+input{
+    border-radius: 7px;
+    padding: 6px 35px;
+    margin: 7px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+input:hover{
+    border-color: rgb(59, 59, 230);
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
